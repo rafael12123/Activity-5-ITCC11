@@ -1,0 +1,22 @@
+# Tic Tac Toe Game
+
+## Overview
+This is a simple Tic Tac Toe game built using Java's Abstract Window Toolkit (AWT). The game allows two players to take turns clicking on a grid to place their X or O. The game checks for a winner after each turn and can be reset to start a new game.
+
+## Features
+- **Tic Tac Toe Grid:** The game displays a 3x3 grid. Each cell in the grid is a Button that players can click to place their X or O.
+- **Player Turns:** The game keeps track of whose turn it is and places the appropriate X or O in the cell when it's clicked.
+- **Check Winner:** The game checks if there's a winner after each turn. If there's a winner, the game displays a message and disables further input.
+- **Reset Game:** There is a "New Game" button that, when clicked, clears all the cells in the grid and starts a new game.
+
+## How to Run the Game
+1. Ensure you have Java installed on your system.
+2. Compile the `TicTacToe.java` file:
+    ```sh
+    javac TicTacToe.java
+    ```
+3. Run the compiled `TicTacToe` class:
+    ```sh
+    java TicTacToe
+    ```
+
